@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import UserInput from "./components/UserInput";
 import Results from "./components/Results";
 import { useState } from "react";
+let sth = true;
 
 function App() {
   const [userInput, setUserInput] = useState({
